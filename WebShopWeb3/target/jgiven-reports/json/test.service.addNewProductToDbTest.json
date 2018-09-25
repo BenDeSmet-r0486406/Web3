@@ -1,0 +1,51 @@
+{
+  "className": "test.service.addNewProductToDbTest",
+  "name": "add New Product To Db",
+  "scenarios": [
+    {
+      "className": "test.service.addNewProductToDbTest",
+      "testMethodName": "a_product_can_be_added_througthe_ui_and_be_retrieved_from_the_db",
+      "description": "a product can be added througthe ui and be retrieved from the db",
+      "tagIds": [],
+      "explicitParameters": [],
+      "derivedParameters": [],
+      "casesAsTable": false,
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "success": false,
+          "errorMessage": "org.junit.internal.runners.model.MultipleFailureException: There were 2 errors:\n  org.openqa.selenium.WebDriverException(Failed to connect to binary FirefoxBinary(C:\\Program Files\\Mozilla Firefox\\firefox.exe) on port 7055; process output follows: \n\":false,\"signedState\":2,\"seen\":true}\r\n1482955361600\taddons.xpi\tDEBUG\tUpdating XPIState for {\"id\":\"sp@avast.com\",\"syncGUID\":\"5d3neI-khcDc\",\"location\":\"winreg-app-global\",\"version\":\"10.3.5.39\",\"type\":\"extension\",\"internalName\":null,\"updateURL\":null,\"updateKey\":null,\"optionsURL\":null,\"optionsType\":null,\"aboutURL\":null,\"icons\":{},\"iconURL\":\"chrome://sp/content/common/skin/img/logo-safeprice-48.png\",\"icon64URL\":null,\"defaultLocale\":{\"name\":\"Avast SafePrice\",\"description\":\"Safe shopping extension\",\"creator\":\"AVAST Software\",\"homepageURL\":\"http://www.avast.com/\"},\"visible\":true,\"active\":false,\"userDisabled\":true,\"appDisabled\":false,\"descriptor\":\"C:\\\\Program Files\\\\AVAST Software\\\\Avast\\\\SafePrice\\\\FF\",\"installDate\":1474004944753,\"updateDate\":1474004944753,\"applyBackgroundUpdates\":1,\"bootstrap\":true,\"skinnable\":false,\"size\":1877359,\"sourceURI\":null,\"releaseNotesURI\":null,\"softDisabled\":false,\"foreignInstall\":true,\"hasBinaryComponents\":false,\"strictCompatibility\":false,\"locales\":[],\"targetApplications\":[{\"id\":\"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}\",\"minVersion\":\"38.0a1\",\"maxVersion\":\"43.0\"}],\"targetPlatforms\":[],\"multiprocessCompatible\":false,\"signedState\":2,\"seen\":true}\r\n1482955361600\tDeferredSave.extensions.json\tDEBUG\tSave changes\r\n1482955361600\taddons.xpi\tDEBUG\tUpdating database with changes to installed add-ons\r\n1482955361600\taddons.xpi-utils\tDEBUG\tUpdating add-on states\r\n1482955361601\taddons.xpi-utils\tDEBUG\tWriting add-ons list\r\n1482955361605\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi\r\n1482955361606\taddons.xpi\tDEBUG\tCalling bootstrap method startup on e10srollout@mozilla.org version 1.0\r\n1482955361606\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi\r\n1482955361607\taddons.xpi\tDEBUG\tCalling bootstrap method startup on firefox@getpocket.com version 1.0\r\n1482955361608\taddons.xpi\tDEBUG\tRegistering manifest for C:\\Program Files\\Mozilla Firefox\\browser\\features\\loop@mozilla.org.xpi\r\n1482955361609\taddons.xpi\tDEBUG\tCalling bootstrap method startup on loop@mozilla.org version 1.2.6\r\n1482955361628\taddons.manager\tDEBUG\tRegistering shutdown blocker for XPIProvider\r\n1482955361628\taddons.manager\tDEBUG\tProvider finished startup: XPIProvider\r\n1482955361628\taddons.manager\tDEBUG\tStarting provider: LightweightThemeManager\r\n1482955361628\taddons.manager\tDEBUG\tRegistering shutdown blocker for LightweightThemeManager\r\n1482955361628\taddons.manager\tDEBUG\tProvider finished startup: LightweightThemeManager\r\n1482955361629\taddons.manager\tDEBUG\tStarting provider: GMPProvider\r\n1482955361634\taddons.manager\tDEBUG\tRegistering shutdown blocker for GMPProvider\r\n1482955361635\taddons.manager\tDEBUG\tProvider finished startup: GMPProvider\r\n1482955361635\taddons.manager\tDEBUG\tStarting provider: PluginProvider\r\n1482955361635\taddons.manager\tDEBUG\tRegistering shutdown blocker for PluginProvider\r\n1482955361635\taddons.manager\tDEBUG\tProvider finished startup: PluginProvider\r\n1482955361635\taddons.manager\tDEBUG\tCompleted startup sequence\r\n1482955362625\tDeferredSave.extensions.json\tDEBUG\tStarting timer\r\n1482955362636\taddons.manager\tDEBUG\tStarting provider: \u003cunnamed-provider\u003e\r\n1482955362636\taddons.manager\tDEBUG\tRegistering shutdown blocker for \u003cunnamed-provider\u003e\r\n1482955362636\taddons.manager\tDEBUG\tProvider finished startup: \u003cunnamed-provider\u003e\r\n1482955362658\tDeferredSave.extensions.json\tDEBUG\tStarting write\r\n1482955362727\taddons.repository\tDEBUG\tNo addons.json found.\r\n1482955362728\tDeferredSave.addons.json\tDEBUG\tSave changes\r\n1482955362772\tDeferredSave.addons.json\tDEBUG\tStarting timer\r\n1482955362861\taddons.manager\tDEBUG\tStarting provider: PreviousExperimentProvider\r\n1482955362861\taddons.manager\tDEBUG\tRegistering shutdown blocker for PreviousExperimentProvider\r\n1482955362861\taddons.manager\tDEBUG\tProvider finished startup: PreviousExperimentProvider\r\n1482955362872\tDeferredSave.addons.json\tDEBUG\tStarting write\r\n1482955362877\tDeferredSave.extensions.json\tDEBUG\tWrite succeeded\r\n1482955363630\tDeferredSave.addons.json\tDEBUG\tWrite succeeded\r\n\nBuild info: version: \u00272.48.2\u0027, revision: \u002741bccdd10cf2c0560f637404c2d96164b67d9d67\u0027, time: \u00272015-10-09 13:08:06\u0027\nSystem info: host: \u0027BPC\u0027, ip: \u0027192.168.57.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_111\u0027\nDriver info: driver.version: FirefoxDriver)\n  java.lang.NullPointerException(null)",
+          "stackTrace": [
+            "org.junit.runners.model.MultipleFailureException.assertEmpty(MultipleFailureException.java:67)",
+            "org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:39)",
+            "com.tngtech.jgiven.junit.ScenarioExecutionRule$1.evaluate(ScenarioExecutionRule.java:88)",
+            "org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)",
+            "org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)",
+            "org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)",
+            "org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)",
+            "org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)",
+            "org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)",
+            "org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)",
+            "org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)",
+            "org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)",
+            "org.junit.rules.RunRules.evaluate(RunRules.java:20)",
+            "org.junit.runners.ParentRunner.run(ParentRunner.java:363)",
+            "org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:344)",
+            "org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:269)",
+            "org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:240)",
+            "org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:184)",
+            "org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)",
+            "org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)",
+            "org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)"
+          ],
+          "durationInNanos": 47612908231
+        }
+      ],
+      "durationInNanos": 47612908231
+    }
+  ],
+  "tagMap": {}
+}

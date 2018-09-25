@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1-dev-20150306-5afe4d1" sequence="1" timestamp="1482153570132" analysisTimestamp="1482153562988" release="">
+  <Project projectName="WebShopWeb3">
+    <Jar>C:\Users\Ben\2Ti_Web3\WebShopWeb3\target\classes</Jar>
+    <Jar>C:\Users\Ben\2Ti_Web3\WebShopWeb3\target\test-classes</Jar>
+    <AuxClasspathEntry>C:\Users\Ben\2Ti_Web3\WebShopWeb3\target\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\2Ti_Web3\WebShopWeb3\target\test-classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\javax\javaee-web-api\7.0\javaee-web-api-7.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\org\postgresql\postgresql\9.4.1211.jre7\postgresql-9.4.1211.jre7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\junit\junit\4.12\junit-4.12.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\com\tngtech\jgiven\jgiven-junit\0.12.1\jgiven-junit-0.12.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\org\slf4j\slf4j-api\1.7.21\slf4j-api-1.7.21.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\com\tngtech\jgiven\jgiven-core\0.12.1\jgiven-core-0.12.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\com\google\code\gson\gson\2.7\gson-2.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\com\thoughtworks\paranamer\paranamer\2.8\paranamer-2.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\cglib\cglib-nodep\3.2.4\cglib-nodep-3.2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\org\fusesource\jansi\jansi\1.13\jansi-1.13.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\com\tngtech\jgiven\jgiven-html5-report\0.12.1\jgiven-html5-report-0.12.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\com\tngtech\java\junit-dataprovider\1.10.0\junit-dataprovider-1.10.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\org\seleniumhq\selenium\selenium-java\2.48.2\selenium-java-2.48.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.48.2\selenium-chrome-driver-2.48.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.48.2\selenium-remote-driver-2.48.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\org\seleniumhq\selenium\selenium-api\2.48.2\selenium-api-2.48.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.48.2\selenium-edge-driver-2.48.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.48.2\selenium-htmlunit-driver-2.48.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.18\htmlunit-2.18.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\org\apache\httpcomponents\httpmime\4.5\httpmime-4.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.17\htmlunit-core-js-2.17.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.22\nekohtml-1.9.22.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.16\cssparser-0.9.16.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.2.12.v20150709\websocket-client-9.2.12.v20150709.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\org\eclipse\jetty\jetty-util\9.2.12.v20150709\jetty-util-9.2.12.v20150709.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\org\eclipse\jetty\jetty-io\9.2.12.v20150709\jetty-io-9.2.12.v20150709.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.2.12.v20150709\websocket-common-9.2.12.v20150709.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.2.12.v20150709\websocket-api-9.2.12.v20150709.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.48.2\selenium-firefox-driver-2.48.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.48.2\selenium-ie-driver-2.48.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.48.2\selenium-safari-driver-2.48.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\org\seleniumhq\selenium\selenium-support\2.48.2\selenium-support-2.48.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.48.2\selenium-leg-rc-2.48.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Ben\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\Ben\2Ti_Web3\WebShopWeb3\src\main\resources</SrcDir>
+    <SrcDir>C:\Users\Ben\2Ti_Web3\WebShopWeb3\src\test\java</SrcDir>
+    <SrcDir>C:\Users\Ben\2Ti_Web3\WebShopWeb3\src\test\resources</SrcDir>
+    <SrcDir>C:\Users\Ben\2Ti_Web3\WebShopWeb3\src\main\java</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="FI_PUBLIC_SHOULD_BE_PROTECTED" priority="2" rank="18" abbrev="FI" category="MALICIOUS_CODE" first="1">
+    <Class classname="domain.db.PersonRepositorySql">
+      <SourceLine classname="domain.db.PersonRepositorySql" sourcefile="PersonRepositorySql.java" sourcepath="domain/db/PersonRepositorySql.java"/>
+    </Class>
+    <Method classname="domain.db.PersonRepositorySql" name="finalize" signature="()V" isStatic="false">
+      <SourceLine classname="domain.db.PersonRepositorySql" start="152" end="153" startBytecode="0" endBytecode="55" sourcefile="PersonRepositorySql.java" sourcepath="domain/db/PersonRepositorySql.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="domain.db.PersonRepositorySql">
+      <SourceLine classname="domain.db.PersonRepositorySql" sourcefile="PersonRepositorySql.java" sourcepath="domain/db/PersonRepositorySql.java"/>
+    </Class>
+    <Method classname="domain.db.PersonRepositorySql" name="get" signature="(Ljava/lang/String;)Ldomain/model/Person;" isStatic="false">
+      <SourceLine classname="domain.db.PersonRepositorySql" start="39" end="65" startBytecode="0" endBytecode="498" sourcefile="PersonRepositorySql.java" sourcepath="domain/db/PersonRepositorySql.java"/>
+    </Method>
+    <Class classname="java.sql.ResultSet" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.ResultSet" sourcefile="ResultSet.java" sourcepath="java/sql/ResultSet.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="domain.db.PersonRepositorySql" start="48" end="48" startBytecode="63" endBytecode="63" sourcefile="PersonRepositorySql.java" sourcepath="domain/db/PersonRepositorySql.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="domain.db.PersonRepositorySql" start="49" end="49" startBytecode="69" endBytecode="69" sourcefile="PersonRepositorySql.java" sourcepath="domain/db/PersonRepositorySql.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="domain.db.PersonRepositorySql" start="64" end="64" startBytecode="161" endBytecode="161" sourcefile="PersonRepositorySql.java" sourcepath="domain/db/PersonRepositorySql.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="domain.db.PersonRepositorySql" start="65" end="65" startBytecode="181" endBytecode="181" sourcefile="PersonRepositorySql.java" sourcepath="domain/db/PersonRepositorySql.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="domain.db.PersonRepositorySql">
+      <SourceLine classname="domain.db.PersonRepositorySql" sourcefile="PersonRepositorySql.java" sourcepath="domain/db/PersonRepositorySql.java"/>
+    </Class>
+    <Method classname="domain.db.PersonRepositorySql" name="getAll" signature="()Ljava/util/List;" isStatic="false">
+      <SourceLine classname="domain.db.PersonRepositorySql" start="70" end="88" startBytecode="0" endBytecode="403" sourcefile="PersonRepositorySql.java" sourcepath="domain/db/PersonRepositorySql.java"/>
+    </Method>
+    <Class classname="java.sql.ResultSet" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.ResultSet" sourcefile="ResultSet.java" sourcepath="java/sql/ResultSet.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="domain.db.PersonRepositorySql" start="74" end="74" startBytecode="29" endBytecode="29" sourcefile="PersonRepositorySql.java" sourcepath="domain/db/PersonRepositorySql.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="domain.db.PersonRepositorySql" start="76" end="76" startBytecode="35" endBytecode="35" sourcefile="PersonRepositorySql.java" sourcepath="domain/db/PersonRepositorySql.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="domain.db.PersonRepositorySql" start="87" end="87" startBytecode="125" endBytecode="125" sourcefile="PersonRepositorySql.java" sourcepath="domain/db/PersonRepositorySql.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="domain.db.PersonRepositorySql" start="88" end="88" startBytecode="142" endBytecode="142" sourcefile="PersonRepositorySql.java" sourcepath="domain/db/PersonRepositorySql.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="domain.db.PersonRepositorySql">
+      <SourceLine classname="domain.db.PersonRepositorySql" sourcefile="PersonRepositorySql.java" sourcepath="domain/db/PersonRepositorySql.java"/>
+    </Class>
+    <Method classname="domain.db.PersonRepositorySql" name="orderPersons" signature="()Ljava/util/List;" isStatic="false">
+      <SourceLine classname="domain.db.PersonRepositorySql" start="157" end="175" startBytecode="0" endBytecode="403" sourcefile="PersonRepositorySql.java" sourcepath="domain/db/PersonRepositorySql.java"/>
+    </Method>
+    <Class classname="java.sql.ResultSet" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.ResultSet" sourcefile="ResultSet.java" sourcepath="java/sql/ResultSet.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="domain.db.PersonRepositorySql" start="161" end="161" startBytecode="29" endBytecode="29" sourcefile="PersonRepositorySql.java" sourcepath="domain/db/PersonRepositorySql.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="domain.db.PersonRepositorySql" start="163" end="163" startBytecode="35" endBytecode="35" sourcefile="PersonRepositorySql.java" sourcepath="domain/db/PersonRepositorySql.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="domain.db.PersonRepositorySql" start="174" end="174" startBytecode="125" endBytecode="125" sourcefile="PersonRepositorySql.java" sourcepath="domain/db/PersonRepositorySql.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="domain.db.PersonRepositorySql" start="175" end="175" startBytecode="142" endBytecode="142" sourcefile="PersonRepositorySql.java" sourcepath="domain/db/PersonRepositorySql.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="FI_PUBLIC_SHOULD_BE_PROTECTED" priority="2" rank="18" abbrev="FI" category="MALICIOUS_CODE" first="1">
+    <Class classname="domain.db.ProductRepositorySql">
+      <SourceLine classname="domain.db.ProductRepositorySql" sourcefile="ProductRepositorySql.java" sourcepath="domain/db/ProductRepositorySql.java"/>
+    </Class>
+    <Method classname="domain.db.ProductRepositorySql" name="finalize" signature="()V" isStatic="false">
+      <SourceLine classname="domain.db.ProductRepositorySql" start="146" end="147" startBytecode="0" endBytecode="55" sourcefile="ProductRepositorySql.java" sourcepath="domain/db/ProductRepositorySql.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="domain.db.ProductRepositorySql">
+      <SourceLine classname="domain.db.ProductRepositorySql" sourcefile="ProductRepositorySql.java" sourcepath="domain/db/ProductRepositorySql.java"/>
+    </Class>
+    <Method classname="domain.db.ProductRepositorySql" name="get" signature="(Ljava/lang/String;)Ldomain/model/Product;" isStatic="false">
+      <SourceLine classname="domain.db.ProductRepositorySql" start="38" end="56" startBytecode="0" endBytecode="369" sourcefile="ProductRepositorySql.java" sourcepath="domain/db/ProductRepositorySql.java"/>
+    </Method>
+    <Class classname="java.sql.ResultSet" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.ResultSet" sourcefile="ResultSet.java" sourcepath="java/sql/ResultSet.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="domain.db.ProductRepositorySql" start="45" end="45" startBytecode="40" endBytecode="40" sourcefile="ProductRepositorySql.java" sourcepath="domain/db/ProductRepositorySql.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="domain.db.ProductRepositorySql" start="46" end="46" startBytecode="47" endBytecode="47" sourcefile="ProductRepositorySql.java" sourcepath="domain/db/ProductRepositorySql.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="domain.db.ProductRepositorySql" start="55" end="55" startBytecode="120" endBytecode="120" sourcefile="ProductRepositorySql.java" sourcepath="domain/db/ProductRepositorySql.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="domain.db.ProductRepositorySql" start="56" end="56" startBytecode="140" endBytecode="140" sourcefile="ProductRepositorySql.java" sourcepath="domain/db/ProductRepositorySql.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="domain.db.ProductRepositorySql">
+      <SourceLine classname="domain.db.ProductRepositorySql" sourcefile="ProductRepositorySql.java" sourcepath="domain/db/ProductRepositorySql.java"/>
+    </Class>
+    <Method classname="domain.db.ProductRepositorySql" name="getAll" signature="()Ljava/util/List;" isStatic="false">
+      <SourceLine classname="domain.db.ProductRepositorySql" start="63" end="85" startBytecode="0" endBytecode="393" sourcefile="ProductRepositorySql.java" sourcepath="domain/db/ProductRepositorySql.java"/>
+    </Method>
+    <Class classname="java.sql.ResultSet" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.ResultSet" sourcefile="ResultSet.java" sourcepath="java/sql/ResultSet.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="domain.db.ProductRepositorySql" start="69" end="69" startBytecode="29" endBytecode="29" sourcefile="ProductRepositorySql.java" sourcepath="domain/db/ProductRepositorySql.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="domain.db.ProductRepositorySql" start="71" end="71" startBytecode="36" endBytecode="36" sourcefile="ProductRepositorySql.java" sourcepath="domain/db/ProductRepositorySql.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="domain.db.ProductRepositorySql" start="83" end="83" startBytecode="121" endBytecode="121" sourcefile="ProductRepositorySql.java" sourcepath="domain/db/ProductRepositorySql.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="domain.db.ProductRepositorySql" start="85" end="85" startBytecode="138" endBytecode="138" sourcefile="ProductRepositorySql.java" sourcepath="domain/db/ProductRepositorySql.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="domain.model.Person">
+      <SourceLine classname="domain.model.Person" sourcefile="Person.java" sourcepath="domain/model/Person.java"/>
+    </Class>
+    <Method classname="domain.model.Person" name="hashPassword" signature="(Ljava/lang/String;)Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="domain.model.Person" start="118" end="129" startBytecode="0" endBytecode="243" sourcefile="Person.java" sourcepath="domain/model/Person.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="&lt;init&gt;" signature="([B)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="566" end="567" startBytecode="0" endBytecode="36" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="domain.model.Person" start="123" end="123" startBytecode="49" endBytecode="49" sourcefile="Person.java" sourcepath="domain/model/Person.java"/>
+    <SourceLine classname="domain.model.Person" start="123" end="123" startBytecode="49" endBytecode="49" sourcefile="Person.java" sourcepath="domain/model/Person.java"/>
+  </BugInstance>
+  
+  <BugInstance type="SE_BAD_FIELD" priority="2" rank="16" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="ui.controller.Controller">
+      <SourceLine classname="ui.controller.Controller" sourcefile="Controller.java" sourcepath="ui/controller/Controller.java"/>
+    </Class>
+    <Field classname="ui.controller.Controller" name="service" signature="Ldomain/service/ShopService;" isStatic="false">
+      <SourceLine classname="ui.controller.Controller" sourcefile="Controller.java" sourcepath="ui/controller/Controller.java"/>
+    </Field>
+    <Type descriptor="Ldomain/service/ShopService;" role="TYPE_FOUND">
+      <SourceLine classname="domain.service.ShopService" start="13" end="71" sourcefile="ShopService.java" sourcepath="domain/service/ShopService.java"/>
+    </Type>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sun, 18 Dec 2016 14:19:25 +0100" total_classes="10" referenced_classes="81" total_bugs="9" total_size="606" num_packages="4" java_version="1.8.0_111" vm_version="25.111-b14" cpu_seconds="27.08" clock_seconds="7.15" peak_mbytes="597.49" alloc_mbytes="910.50" gc_seconds="0.13" priority_2="8" priority_1="1">
+    <PackageStats package="domain.db" total_bugs="7" total_types="6" total_size="269" priority_2="7">
+      <ClassStats class="domain.db.DbException" sourceFile="DbException.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="domain.db.PersonRepository" sourceFile="PersonRepository.java" interface="true" size="7" bugs="0"/>
+      <ClassStats class="domain.db.PersonRepositorySql" sourceFile="PersonRepositorySql.java" interface="false" size="119" bugs="4" priority_2="4"/>
+      <ClassStats class="domain.db.ProductRepository" sourceFile="ProductRepository.java" interface="true" size="6" bugs="0"/>
+      <ClassStats class="domain.db.ProductRepositoryInMemory" sourceFile="ProductRepositoryInMemory.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="domain.db.ProductRepositorySql" sourceFile="ProductRepositorySql.java" interface="false" size="93" bugs="3" priority_2="3"/>
+    </PackageStats>
+    <PackageStats package="domain.model" total_bugs="1" total_types="2" total_size="146" priority_1="1">
+      <ClassStats class="domain.model.Person" sourceFile="Person.java" interface="false" size="103" bugs="1" priority_1="1"/>
+      <ClassStats class="domain.model.Product" sourceFile="Product.java" interface="false" size="43" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="domain.service" total_bugs="0" total_types="1" total_size="40">
+      <ClassStats class="domain.service.ShopService" sourceFile="ShopService.java" interface="false" size="40" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="ui.controller" total_bugs="1" total_types="1" total_size="151" priority_2="1">
+      <ClassStats class="ui.controller.Controller" sourceFile="Controller.java" interface="false" size="151" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="821" invocations="680" avgMicrosecondsPerInvocation="1207" maxMicrosecondsPerInvocation="17003" standardDeviationMircosecondsPerInvocation="2785"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="593" invocations="2" avgMicrosecondsPerInvocation="296811" maxMicrosecondsPerInvocation="425628" standardDeviationMircosecondsPerInvocation="128817"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="299" invocations="678" avgMicrosecondsPerInvocation="441" maxMicrosecondsPerInvocation="43004" standardDeviationMircosecondsPerInvocation="1878"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="147" invocations="81" avgMicrosecondsPerInvocation="1818" maxMicrosecondsPerInvocation="15168" standardDeviationMircosecondsPerInvocation="3131"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="136" invocations="380" avgMicrosecondsPerInvocation="359" maxMicrosecondsPerInvocation="5907" standardDeviationMircosecondsPerInvocation="547"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="100" invocations="81" avgMicrosecondsPerInvocation="1236" maxMicrosecondsPerInvocation="12332" standardDeviationMircosecondsPerInvocation="2044"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="66" invocations="96" avgMicrosecondsPerInvocation="695" maxMicrosecondsPerInvocation="9397" standardDeviationMircosecondsPerInvocation="1083"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="62" invocations="96" avgMicrosecondsPerInvocation="652" maxMicrosecondsPerInvocation="11799" standardDeviationMircosecondsPerInvocation="1306"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="57" invocations="85" avgMicrosecondsPerInvocation="671" maxMicrosecondsPerInvocation="10558" standardDeviationMircosecondsPerInvocation="1271"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="53" invocations="85" avgMicrosecondsPerInvocation="632" maxMicrosecondsPerInvocation="5103" standardDeviationMircosecondsPerInvocation="768"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="53" invocations="96" avgMicrosecondsPerInvocation="554" maxMicrosecondsPerInvocation="36583" standardDeviationMircosecondsPerInvocation="3710"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="49" invocations="81" avgMicrosecondsPerInvocation="613" maxMicrosecondsPerInvocation="6877" standardDeviationMircosecondsPerInvocation="1237"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="49" invocations="85" avgMicrosecondsPerInvocation="581" maxMicrosecondsPerInvocation="12491" standardDeviationMircosecondsPerInvocation="1373"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="49" invocations="119" avgMicrosecondsPerInvocation="415" maxMicrosecondsPerInvocation="19304" standardDeviationMircosecondsPerInvocation="1821"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1482153570128" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

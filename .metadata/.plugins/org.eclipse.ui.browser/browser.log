@@ -1,0 +1,60 @@
+
+sep. 23, 2016 14:44:46.96 NEW SESSION
+sep. 23, 2016 14:44:46.96 [Child 9000] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 333
+sep. 23, 2016 14:44:46.97 [Child 9000] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 333
+sep. 23, 2016 14:54:35.69 1474635275692	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+sep. 23, 2016 14:54:35.85 1474635275854	addons.update-checker	WARN	Update manifest for wrc@avast.com did not contain an updates property
+sep. 23, 2016 14:54:35.88 1474635275880	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+sep. 23, 2016 14:54:36.06 1474635276062	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+sep. 23, 2016 14:54:36.08 1474635276087	addons.update-checker	WARN	Update manifest for sp@avast.com did not contain an updates property
+
+sep. 30, 2016 13:57:32.36 NEW SESSION
+sep. 30, 2016 13:57:32.36 [Child 6028] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 333
+sep. 30, 2016 13:57:32.38 [Child 6028] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 333
+sep. 30, 2016 14:05:04.68 1475237104679	addons.update-checker	WARN	Update manifest for wrc@avast.com did not contain an updates property
+sep. 30, 2016 14:05:04.86 1475237104860	addons.update-checker	WARN	Update manifest for sp@avast.com did not contain an updates property
+sep. 30, 2016 14:05:05.18 1475237105179	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+sep. 30, 2016 14:05:05.29 1475237105297	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+sep. 30, 2016 14:05:05.58 1475237105588	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+sep. 30, 2016 14:32:36.53 [Child 6208] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 333
+sep. 30, 2016 14:32:36.53 [Child 6208] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 333
+sep. 30, 2016 14:43:44.00 [Child 8368] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 333
+sep. 30, 2016 14:43:44.00 [Child 8368] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 333
+
+okt. 30, 2016 13:04:13.64 NEW SESSION
+okt. 30, 2016 13:04:13.64 [Child 7396] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 343
+okt. 30, 2016 13:18:33.15 Handler function threw an exception: TypeError: threadActor is null
+okt. 30, 2016 13:18:33.16 Stack: TabActor.prototype._windowReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1745:1
+okt. 30, 2016 13:18:33.16 TabActor.prototype._changeTopLevelDocument/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1682:7
+okt. 30, 2016 13:18:33.16 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+okt. 30, 2016 13:18:33.16 Line: 1745, column: 1
+okt. 30, 2016 13:18:33.16 console.error: 
+okt. 30, 2016 13:18:33.16   Handler function threw an exception: TypeError: threadActor is null
+okt. 30, 2016 13:18:33.16 Stack: TabActor.prototype._windowReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1745:1
+okt. 30, 2016 13:18:33.16 TabActor.prototype._changeTopLevelDocument/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1682:7
+okt. 30, 2016 13:18:33.16 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+okt. 30, 2016 13:18:33.16 Line: 1745, column: 1
+
+nov. 01, 2016 16:01:44.01 NEW SESSION
+nov. 01, 2016 16:01:44.01 1478012504012	addons.update-checker	WARN	Update manifest for wrc@avast.com did not contain an updates property
+nov. 01, 2016 16:01:44.13 1478012504047	addons.update-checker	WARN	Update manifest for sp@avast.com did not contain an updates property
+nov. 01, 2016 16:01:44.13 1478012504068	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+nov. 01, 2016 16:01:44.13 1478012504078	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+nov. 01, 2016 16:01:44.17 1478012504171	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+nov. 01, 2016 16:01:44.19 1478012504190	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+
+nov. 04, 2016 21:36:06.14 NEW SESSION
+nov. 04, 2016 21:36:06.14 1478291766137	addons.update-checker	WARN	Update manifest for wrc@avast.com did not contain an updates property
+nov. 04, 2016 21:36:06.15 1478291766154	addons.update-checker	WARN	Update manifest for sp@avast.com did not contain an updates property
+nov. 04, 2016 21:36:06.19 1478291766190	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+nov. 04, 2016 21:36:06.20 1478291766202	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+nov. 04, 2016 21:36:06.30 1478291766304	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+nov. 04, 2016 21:36:06.31 1478291766318	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+
+nov. 05, 2016 21:36:07.06 NEW SESSION
+nov. 05, 2016 21:36:07.06 1478378167035	addons.update-checker	WARN	Update manifest for wrc@avast.com did not contain an updates property
+nov. 05, 2016 21:36:07.08 1478378167056	addons.update-checker	WARN	Update manifest for sp@avast.com did not contain an updates property
+nov. 05, 2016 21:36:07.08 1478378167079	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+nov. 05, 2016 21:36:07.10 1478378167103	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+nov. 05, 2016 21:36:07.17 1478378167175	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+nov. 05, 2016 21:36:07.20 1478378167209	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property

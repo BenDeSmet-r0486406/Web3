@@ -1,0 +1,305 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.web3</groupId>
+	<artifactId>WebShopWeb3</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+
+	<properties>
+		<!-- Plugins -->
+		<maven.compiler.version>3.1</maven.compiler.version>
+		<source.level>1.7</source.level>
+		<maven.surefire.version>2.12.1</maven.surefire.version>
+		<jgiven.version>0.12.1</jgiven.version>
+		<maven.failsafe.version>2.12.4</maven.failsafe.version>
+		<tomcat7.maven.version>2.2</tomcat7.maven.version>
+		<selenium.maven.version>2.3</selenium.maven.version>
+		
+		<!-- Other dependencies -->
+		<jstl.version>1.2</jstl.version>
+		<javaee.version>7.0</javaee.version>
+		<javax.servlet.api.version>3.0.1</javax.servlet.api.version>
+		<postgresql.version>9.4.1211.jre7</postgresql.version>
+		<junit.version>4.12</junit.version>
+		<selenium.server.version>2.53.0</selenium.server.version>
+		<selenium.htmlunit.driver.version>2.52.0</selenium.htmlunit.driver.version>
+		<htmlunit.version>2.23</htmlunit.version>
+		<jgiven.version>0.13.0</jgiven.version>
+		<slf4j.version>1.7.22</slf4j.version>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${maven.compiler.version}</version>
+				<configuration>
+					<source>${source.level}</source>
+					<target>${source.level}</target>
+					<encoding>${project.build.sourceEncoding}</encoding>
+				</configuration>
+			</plugin>
+			
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>${maven.surefire.version}</version>
+				<configuration>
+					<excludes>
+						<exclude>**/*UITest*</exclude>
+					</excludes>
+				</configuration>
+			</plugin>
+			
+			<plugin>
+				<groupId>com.tngtech.jgiven</groupId>
+				<artifactId>jgiven-maven-plugin</artifactId>
+				<version>${jgiven.version}</version>
+				<configuration>
+					<format>html</format>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>report</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-failsafe-plugin</artifactId>
+				<version>${maven.failsafe.version}</version>
+				<configuration>
+					<!-- Sets the VM argument line used when integration tests are run. -->
+                	<argLine>${failsafeArgLine}</argLine>
+					<includes>
+						<include>**/*UITest*</include>
+					</includes>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>integration-test</goal>
+							<goal>verify</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			
+			<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<version>${tomcat7.maven.version}</version>
+				<executions>
+					<execution>
+						<id>tomcat-run</id>
+						<goals>
+							<goal>run-war-only</goal>
+						</goals>
+						<phase>pre-integration-test</phase>
+						<configuration>
+							<port>8081</port>
+							<fork>true</fork>
+						</configuration>
+					</execution>
+					<execution>
+						<id>tomcat-shutdown</id>
+						<goals>
+							<goal>shutdown</goal>
+						</goals>
+						<phase>post-integration-test</phase>
+					</execution>
+				</executions>
+			</plugin>
+			
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>selenium-maven-plugin</artifactId>
+				<version>${selenium.maven.version}</version>
+				<executions>
+					<execution>
+						<phase>pre-integration-test</phase>
+						<goals>
+							<goal>start-server</goal>
+						</goals>
+						<configuration>
+							<background>true</background>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			
+			<!-- FINDBUGS -->
+			<plugin>
+		        <groupId>org.codehaus.mojo</groupId>
+		        <artifactId>findbugs-maven-plugin</artifactId>
+		        <version>3.0.4</version>
+		        <executions>
+		            <execution>
+		                <id>findbug</id>
+		                <phase>verify</phase>
+		                <goals>
+		                    <goal>check</goal>
+		                </goals>
+		            </execution>
+		        </executions>
+		        <configuration>
+		            <findbugsXmlOutputDirectory>
+		                ${project.build.directory}/findbugs
+		            </findbugsXmlOutputDirectory>
+		            <failOnError>false</failOnError>
+		        </configuration>
+		    </plugin>
+		
+		    <plugin>
+		        <groupId>org.codehaus.mojo</groupId>
+		        <artifactId>xml-maven-plugin</artifactId>
+		        <version>1.0.1</version>
+		        <executions>
+		            <execution>
+		                <phase>verify</phase>
+		                <goals>
+		                    <goal>transform</goal>
+		                </goals>
+		            </execution>
+		        </executions>
+		        <configuration>
+		            <transformationSets>
+		                <transformationSet>
+		                    <dir>${project.build.directory}/findbugs</dir>
+		                    <outputDir>${project.build.directory}/findbugs</outputDir>
+		                    <stylesheet>fancy-hist.xsl</stylesheet>
+		                    <!--<stylesheet>default.xsl</stylesheet>-->
+		                    <!--<stylesheet>plain.xsl</stylesheet>-->
+		                    <!--<stylesheet>fancy.xsl</stylesheet>-->
+		                    <!--<stylesheet>summary.xsl</stylesheet>-->
+		                    <fileMappers>
+		                        <fileMapper
+		                                implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
+		                            <targetExtension>.html</targetExtension>
+		                        </fileMapper>
+		                    </fileMappers>
+		                </transformationSet>
+		            </transformationSets>
+		        </configuration>
+		        <dependencies>
+		            <dependency>
+		                <groupId>com.google.code.findbugs</groupId>
+		                <artifactId>findbugs</artifactId>
+		                <version>3.0.1</version>
+		            </dependency>
+		        </dependencies>
+		    </plugin>
+
+			<!-- JACOCO -->
+
+			<plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.7.5.201505241946</version>
+                <executions>
+        <!-- The Executions required by unit tests are omitted. -->
+        <!--
+            Prepares the property pointing to the JaCoCo runtime agent which
+            is passed as VM argument when Maven the Failsafe plugin is executed.
+        -->
+        <execution>
+            <id>pre-integration-test</id>
+            <phase>pre-integration-test</phase>
+            <goals>
+                <goal>prepare-agent</goal>
+            </goals>
+            <configuration>
+                <!-- Sets the path to the file which contains the execution data. -->
+                <destFile>${project.build.directory}/coverage-reports/jacoco-it.exec</destFile>
+                <!--
+                    Sets the name of the property containing the settings
+                    for JaCoCo runtime agent.
+                -->
+                <propertyName>failsafeArgLine</propertyName>
+            </configuration>
+        </execution>
+        <!--
+            Ensures that the code coverage report for integration tests after
+            integration tests have been run.
+        -->
+        <execution>
+            <id>post-integration-test</id>
+            <phase>post-integration-test</phase>
+            <goals>
+                <goal>report</goal>
+            </goals>
+            <configuration>
+                <!-- Sets the path to the file which contains the execution data. -->
+                <dataFile>${project.build.directory}/coverage-reports/jacoco-it.exec</dataFile>
+                <!-- Sets the output directory for the code coverage report. -->
+                <outputDirectory>${project.reporting.outputDirectory}/jacoco-it</outputDirectory>
+            </configuration>
+        </execution>
+    </executions>
+			</plugin>
+			
+		</plugins>
+		
+		<finalName>WebShopWeb3</finalName>
+		
+	</build>
+
+	<dependencies>
+	
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>${jstl.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-web-api</artifactId>
+			<version>${javaee.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>${javax.servlet.api.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>${postgresql.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-server</artifactId>
+			<version>${selenium.server.version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.seleniumhq.selenium</groupId>
+		    <artifactId>selenium-htmlunit-driver</artifactId>
+		    <version>${selenium.htmlunit.driver.version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.slf4j</groupId>
+		    <artifactId>slf4j-simple</artifactId>
+		    <version>${slf4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.tngtech.jgiven</groupId>
+			<artifactId>jgiven-junit</artifactId>
+			<version>${jgiven.version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+</project>

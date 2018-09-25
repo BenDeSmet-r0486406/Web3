@@ -1,0 +1,70 @@
+package ui.controller;
+
+import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import domain.service.ShopService;
+
+
+@WebServlet("/Controller")
+public class Controller extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	private ShopService service = new ShopService();
+	
+    public Controller() {
+        // TODO Auto-generated constructor stub
+    }
+
+	
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		processRequest(request, response);
+	}
+
+	
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		processRequest(request, response);
+	}
+	
+	protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String destination;
+		String action = request.getParameter("action");
+		switch(action){
+		case "overview":
+			destination = overview(request,response);
+			break;
+		case "home":
+			destination = "index.jsp";
+			break;
+		case "signUp":
+			destination = "signUp.jsp";
+			break;
+		case "ADD":
+			destination = ADD(request,response);
+			break;
+		default:
+			destination = "index.jsp";
+			break;
+		}
+		
+		RequestDispatcher view = request.getRequestDispatcher(destination);
+		view.forward(request, response);
+	}
+	
+	private String overview(HttpServletRequest request, HttpServletResponse response) {
+		request.setAttribute("service", service.getPersons() );
+		return "personoverview.jsp";
+	}
+	
+	private String ADD(HttpServletRequest request, HttpServletResponse response) {
+		Person person = New Person(request.getParameter("userId"));
+		service.addPerson(person);
+		return "index.jsp";
+	}
+
+}
